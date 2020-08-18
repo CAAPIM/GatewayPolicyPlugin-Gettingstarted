@@ -1,0 +1,12 @@
+services/Hello World Service:
+  url: "/hello"
+  policy: "services/Hello World Service"
+  httpMethods:
+  - "DELETE"
+  - "POST"
+  - "GET"
+  - "PUT"
+  properties: {}
+  wssProcessingEnabled: false
+  annotations:
+  - "@bundle"

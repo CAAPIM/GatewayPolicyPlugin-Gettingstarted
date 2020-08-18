@@ -1,0 +1,11 @@
+HelloWorldEncass:
+  policy: "common/helloworld"
+  arguments: []
+  results: []
+  properties:
+    paletteFolder: "internalAssertions"
+    allowTracing: "false"
+    l7Template: "false"
+    passMetricsToParent: "false"
+  annotations:
+  - "@bundle"

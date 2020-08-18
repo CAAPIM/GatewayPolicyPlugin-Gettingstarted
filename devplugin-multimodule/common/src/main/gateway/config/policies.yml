@@ -1,0 +1,9 @@
+common/helloworld:
+  type: "Include"
+  tag:
+  subtag:
+  hasRouting: true
+  usedEntities:
+  - type: "ENVIRONMENT_PROPERTY"
+    name: "message"
+  annotations:

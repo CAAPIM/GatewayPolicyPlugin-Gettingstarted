@@ -1,0 +1,36 @@
+buildscript {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath "com.ca.apim.gateway:gateway-developer-plugin:0.10.+"
+        classpath "com.ca.apim.gateway:gateway-export-plugin:0.10.+"
+        classpath "com.ca.apim.gateway:gateway-import-plugin:0.10.+"
+        classpath "com.bmuschko:gradle-docker-plugin:4.6.2"
+    }
+}
+
+apply plugin: 'com.ca.apim.gateway.gateway-export-plugin'
+apply plugin: 'com.ca.apim.gateway.gateway-developer-plugin'
+apply plugin: 'com.ca.apim.gateway.gateway-import-plugin'
+
+group 'com.broadcom'
+version '1.0.0'
+
+
+repositories {
+    gradlePluginPortal()
+    mavenCentral()
+    jcenter()
+}
+
+GatewayConnection {
+    url = "https://localhost:18443"
+    userName = "admin"
+    userPass= "password"
+}
+GatewayExportConfig {
+    folderPath = "/helloworld"
+}

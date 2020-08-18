@@ -1,0 +1,9 @@
+services/Hello World Service:
+  type:
+  tag:
+  subtag:
+  hasRouting: false
+  usedEntities:
+  - type: "ENCAPSULATED_ASSERTION"
+    name: "HelloWorldEncass"
+  annotations:
