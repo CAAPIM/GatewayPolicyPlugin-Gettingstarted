@@ -8,7 +8,6 @@ buildscript {
         classpath "com.ca.apim.gateway:gateway-developer-plugin:0.10.+"
         classpath "com.ca.apim.gateway:gateway-export-plugin:0.10.+"
         classpath "com.ca.apim.gateway:gateway-import-plugin:0.10.+"
-        classpath "com.bmuschko:gradle-docker-plugin:4.6.2"
     }
 }
 
