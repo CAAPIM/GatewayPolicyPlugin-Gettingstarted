@@ -17,7 +17,7 @@ subprojects {
     apply plugin: 'com.ca.apim.gateway.gateway-export-plugin'
     apply plugin: 'com.ca.apim.gateway.gateway-developer-plugin'
     apply plugin: 'com.ca.apim.gateway.gateway-import-plugin'
-    group 'com.broadcom'
+    group 'com.example'
     version '1.0.0'
 
     repositories {
