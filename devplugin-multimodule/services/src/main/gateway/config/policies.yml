@@ -1,9 +1,33 @@
-services/Hello World Service:
+services/Add Pet:
   type:
   tag:
   subtag:
-  hasRouting: false
+  hasRouting: true
   usedEntities:
+  - type: "SSG_KEY_ENTRY"
+    name: "SSL"
   - type: "ENCAPSULATED_ASSERTION"
-    name: "HelloWorldEncass"
+    name: "BasicAuth"
+  annotations:
+services/List Pets:
+  type:
+  tag:
+  subtag:
+  hasRouting: true
+  usedEntities:
+  - type: "SSG_KEY_ENTRY"
+    name: "SSL"
+  - type: "ENCAPSULATED_ASSERTION"
+    name: "BasicAuth"
+  annotations:
+services/Place Order:
+  type:
+  tag:
+  subtag:
+  hasRouting: true
+  usedEntities:
+  - type: "SSG_KEY_ENTRY"
+    name: "SSL"
+  - type: "ENCAPSULATED_ASSERTION"
+    name: "BasicAuth"
   annotations:

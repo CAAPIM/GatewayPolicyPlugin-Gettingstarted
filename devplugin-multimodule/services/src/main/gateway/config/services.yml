@@ -1,6 +1,6 @@
-services/Hello World Service:
-  url: "/hello"
-  policy: "services/Hello World Service"
+services/List Pets:
+  url: "/listPets"
+  policy: "services/List Pets"
   httpMethods:
   - "DELETE"
   - "POST"
@@ -8,5 +8,23 @@ services/Hello World Service:
   - "PUT"
   properties: {}
   wssProcessingEnabled: false
-  annotations:
-  - "@bundle"
+services/Place Order:
+  url: "/orderPet"
+  policy: "services/Place Order"
+  httpMethods:
+  - "DELETE"
+  - "POST"
+  - "GET"
+  - "PUT"
+  properties: {}
+  wssProcessingEnabled: false
+services/Add Pet:
+  url: "/addPet"
+  policy: "services/Add Pet"
+  httpMethods:
+  - "DELETE"
+  - "POST"
+  - "GET"
+  - "PUT"
+  properties: {}
+  wssProcessingEnabled: false

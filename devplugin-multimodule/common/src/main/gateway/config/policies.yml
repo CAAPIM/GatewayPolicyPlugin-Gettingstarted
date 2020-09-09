@@ -1,9 +1,9 @@
-common/helloworld:
+common/basic-auth:
   type: "Include"
   tag:
   subtag:
-  hasRouting: true
+  hasRouting: false
   usedEntities:
-  - type: "ENVIRONMENT_PROPERTY"
-    name: "message"
+  - type: "ID_PROVIDER_CONFIG"
+    name: "Internal Identity Provider"
   annotations:
