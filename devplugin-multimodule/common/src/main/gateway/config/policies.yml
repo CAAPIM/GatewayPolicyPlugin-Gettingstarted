@@ -5,5 +5,7 @@ common/basic-auth:
   hasRouting: false
   usedEntities:
   - type: "ID_PROVIDER_CONFIG"
-    name: "Internal Identity Provider"
+    name: "Simple Ldap"
+  - type: "SSG_KEY_ENTRY"
+    name: "SSL"
   annotations:
