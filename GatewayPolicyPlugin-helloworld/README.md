@@ -1,2 +1,2 @@
-# devplugin-helloworld
-Hello World example for gateway developer plugin
+# GatewayPolicyPlugin-helloworld
+Hello World example for gateway policy plugin
