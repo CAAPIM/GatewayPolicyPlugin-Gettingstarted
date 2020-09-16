@@ -1,2 +1,2 @@
-# devplugin-multimodule
-Multi module gradle example for gateway developer plugin
+# GatewayPolicyPlugin-multimodule
+Multi module gradle example for gateway policy plugin
