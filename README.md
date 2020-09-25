@@ -1,2 +1,2 @@
-# devplugin-gettingstarted
-Getting started example gradle project for developer plugin
+# GatewayPolicyPlugin-gettingstarted
+Getting started example gradle project for Policy Plugin
