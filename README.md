@@ -1,2 +1,1 @@
-# GatewayPolicyPlugin-gettingstarted
-Getting started example gradle project for Policy Plugin
+Repo has been moved. Please go to https://github.com/Layer7-Community/Utilities/tree/main/GatewayPolicyPlugin-Gettingstarted
